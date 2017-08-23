@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Merienda|Petit+Formal+Script|Raleway|Rancho|Roboto|Yesteryear');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif !important;
+  height: 100%;
+}
+
+main {
+  height: 92%;
+}
+
+a:visited {
+  color: #222;
+}
+
+.headroom-wrapper a {
+  text-decoration: none;
+}
+
+.headroom > div {
+  padding: 15px 60px;
+}
+
+.headroom > div > div {
+  display: inline-block;
+  width: 50%;
+}
+
+.upload {
+  max-width: 400px;
+  margin: 2em auto;
+  height: 70vh;
+}
+
+.upload p {
+  margin-bottom: 1em;
+  font-size: 1em;
+}
+
+.upload h2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+
+.upload input[type=file] {
+  display: block;
+  font-size: 1em;
+}
+

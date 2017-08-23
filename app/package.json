@@ -1,0 +1,38 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "material-design-color": "^2.3.2",
+    "material-ui": "^0.18.3",
+    "normalize.css": "^7.0.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-facebook-login-component": "^0.8.0",
+    "react-headroom": "^2.1.5",
+    "react-icons": "^2.2.5",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.1",
+    "react-tap-event-plugin": "^2.0.1",
+    "react-test-renderer": "^15.5.4",
+    "redux": "^3.6.0",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.2.0",
+    "reset-css": "^2.2.0",
+    "shortid": "^2.2.8",
+    "styled-components": "^2.0.1",
+    "superagent": "^3.5.2"
+  },
+  "devDependencies": {
+    "prop-types": "^15.5.10",
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && npm run copy",
+    "copy": "rm -rf ../server/public && cp -R ./build ../server/public",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3001/"
+}
